@@ -1,9 +1,9 @@
 import { expect } from 'chai'
 
-import { getValue } from '../src/index'
+import { calculatePrice } from '../src/index'
 
-describe('getValue function', () => {
-  it('should return 42', () => {
-    expect(getValue()).to.equal(42)
+describe('calculatePrice', () => {
+  it('should return 0', () => {
+    expect(calculatePrice()).to.equal(0)
   })
 })
